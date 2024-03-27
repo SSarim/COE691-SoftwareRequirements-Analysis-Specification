@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="damyot" created="March 2, 2024 at 11:26:54 PM EST" modified="March 11, 2024 at 2:34:23 PM EDT" specVersion="65" urnVersion="1.27" nextGlobalID="1610">
+  <ucmspec/>
+  <grlspec>
+    <intElements name="account to be created by the referee" id="1457" linksDest="1538 1539 1542" linksSrc="1535" type="Task" refs="1458">
+      <metadata name="Evaluation" value="3"/>
+      <metadata name="_numEval" value="-32"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Avoid new usernames and passwords" id="1459" linksSrc="1542 1543 1548" refs="1460">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="Evaluation" value="90"/>
+      <metadata name="_numEval" value="-50"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Email Notification Per Letter" id="1461" linksDest="1555" linksSrc="1531" type="Task" refs="1462">
+      <metadata name="Evaluation" value="50"/>
+      <metadata name="_numEval" value="-12"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Email Notifications to Referees" id="1463" linksDest="1533 1534" type="Goal" decompositionType="Or" refs="1464">
+      <metadata name="Evaluation" value="41"/>
+      <metadata name="_numEval" value="15"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Email Notifications To Student" id="1465" linksDest="1531 1532" type="Goal" decompositionType="Or" refs="1466">
+      <metadata name="Evaluation" value="50"/>
+      <metadata name="_numEval" value="-7"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Ensure authenticity of letters" id="1467" linksSrc="1539 1540" type="Goal" refs="1468">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="Evaluation" value="100"/>
+      <metadata name="_numEval" value="-50"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Initial &amp; Reminder Emails" id="1469" linksDest="1545 1548" linksSrc="1534" type="Task" refs="1470">
+      <metadata name="Evaluation" value="41"/>
+      <metadata name="_numEval" value="15"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Inputs All Info Up Front" id="1471" linksDest="1553" linksSrc="1530" type="Task" refs="1472">
+      <metadata name="Evaluation" value="-54"/>
+      <metadata name="_numEval" value="-37"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Minimize acquisition cost" id="1473" linksSrc="1538" refs="1474">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="Evaluation" value="75"/>
+      <metadata name="_numEval" value="75"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Minimize time writing letters" id="1475" linksDest="1591" linksSrc="1545 1546 1550" refs="1476">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="Evaluation" value="80"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="One Email Notification to Referee" id="1477" linksDest="1546" linksSrc="1533" type="Task" refs="1478">
+      <metadata name="Evaluation" value="16"/>
+      <metadata name="_numEval" value="10"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="One Email Once All Received" id="1479" linksDest="1556" linksSrc="1532" type="Task" refs="1480">
+      <metadata name="Evaluation" value="30"/>
+      <metadata name="_numEval" value="-7"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Secure Input of Reference Letters and Scores" id="1481" linksDest="1535 1536" type="Goal" decompositionType="Or" refs="1482">
+      <metadata name="Evaluation" value="32"/>
+      <metadata name="_numEval" value="-20"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Student Inputs Only Name &amp; Email" id="1483" linksDest="1550 1552" linksSrc="1529" type="Task" refs="1484">
+      <metadata name="Evaluation" value="14"/>
+      <metadata name="_numEval" value="10"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Student&#x2019;s support form" id="1485" linksDest="1540 1543" linksSrc="1536" type="Task" refs="1486">
+      <metadata name="Evaluation" value="32"/>
+      <metadata name="_numEval" value="-20"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Minimize work required" id="1487" linksSrc="1552 1553" refs="1488">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="Evaluation" value="90"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Track progress of recommendation letters" id="1489" linksSrc="1555 1556" type="Goal" refs="1490">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="Evaluation" value="100"/>
+      <metadata name="_numEval" value="-25"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Input of Referee&#x2019;s Coordinates by Student" id="1491" linksDest="1529 1530" linksSrc="1591" type="Goal" decompositionType="Or" refs="1492">
+      <metadata name="Evaluation" value="14"/>
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="17"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <actors name="University" id="1493" fillColor="255,160,255" filled="true" contRefs="1494">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </actors>
+    <actors name="Referees" id="1495" fillColor="160,160,255" filled="true" contRefs="1496">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </actors>
+    <actors name="Student" id="1497" fillColor="160,255,160" filled="true" contRefs="1498">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </actors>
+    <links xsi:type="grl:Decomposition" name="Decomposition1529" id="1529" refs="//@urndef/@specDiagrams.0/@connections.0" dest="1491" src="1483"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition1530" id="1530" refs="//@urndef/@specDiagrams.0/@connections.1" dest="1491" src="1471"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition1531" id="1531" refs="//@urndef/@specDiagrams.0/@connections.2" dest="1465" src="1461"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition1532" id="1532" refs="//@urndef/@specDiagrams.0/@connections.3" dest="1465" src="1479"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition1533" id="1533" refs="//@urndef/@specDiagrams.0/@connections.4" dest="1463" src="1477"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition1534" id="1534" refs="//@urndef/@specDiagrams.0/@connections.5" dest="1463" src="1469"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition1535" id="1535" refs="//@urndef/@specDiagrams.0/@connections.6" dest="1481" src="1457"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition1536" id="1536" refs="//@urndef/@specDiagrams.0/@connections.7" dest="1481" src="1485"/>
+    <links xsi:type="grl:Contribution" name="Contribution1538" id="1538" refs="//@urndef/@specDiagrams.0/@connections.8" dest="1457" src="1473" contribution="Hurt" quantitativeContribution="-30"/>
+    <links xsi:type="grl:Contribution" name="Contribution1539" id="1539" refs="//@urndef/@specDiagrams.0/@connections.9" dest="1457" src="1467" contribution="SomePositive" quantitativeContribution="70"/>
+    <links xsi:type="grl:Contribution" name="Contribution1540" id="1540" refs="//@urndef/@specDiagrams.0/@connections.10" dest="1485" src="1467" contribution="Hurt" quantitativeContribution="-40"/>
+    <links xsi:type="grl:Contribution" name="Contribution1542" id="1542" refs="//@urndef/@specDiagrams.0/@connections.11" dest="1457" src="1459" contribution="SomeNegative" quantitativeContribution="-50"/>
+    <links xsi:type="grl:Contribution" name="Contribution1543" id="1543" refs="//@urndef/@specDiagrams.0/@connections.12" dest="1485" src="1459" contribution="SomePositive" quantitativeContribution="80"/>
+    <links xsi:type="grl:Contribution" name="Contribution1545" id="1545" refs="//@urndef/@specDiagrams.0/@connections.13" dest="1469" src="1475" quantitativeContribution="40"/>
+    <links xsi:type="grl:Contribution" name="Contribution1546" id="1546" refs="//@urndef/@specDiagrams.0/@connections.14" dest="1477" src="1475" quantitativeContribution="20"/>
+    <links xsi:type="grl:Contribution" name="Contribution1548" id="1548" refs="//@urndef/@specDiagrams.0/@connections.15" dest="1469" src="1459" quantitativeContribution="10"/>
+    <links xsi:type="grl:Contribution" name="Contribution1550" id="1550" refs="//@urndef/@specDiagrams.0/@connections.16" dest="1483" src="1475" quantitativeContribution="40"/>
+    <links xsi:type="grl:Contribution" name="Contribution1552" id="1552" refs="//@urndef/@specDiagrams.0/@connections.17" dest="1483" src="1487" contribution="Hurt" quantitativeContribution="-20"/>
+    <links xsi:type="grl:Contribution" name="Contribution1553" id="1553" refs="//@urndef/@specDiagrams.0/@connections.18" dest="1471" src="1487" contribution="SomeNegative" quantitativeContribution="-75"/>
+    <links xsi:type="grl:Contribution" name="Contribution1555" id="1555" refs="//@urndef/@specDiagrams.0/@connections.19" dest="1461" src="1489" contribution="SomePositive" quantitativeContribution="50"/>
+    <links xsi:type="grl:Contribution" name="Contribution1556" id="1556" refs="//@urndef/@specDiagrams.0/@connections.20" dest="1479" src="1489" quantitativeContribution="30"/>
+    <links xsi:type="grl:Contribution" name="Contribution1591" id="1591" dest="1475" src="1491"/>
+    <groups name="MyFirstGroup" id="4" description="Some description here..." strategies="1586 1587 1590 1594 1597 1598 1599 1600 1601 1602 1603 1604 1605 1606 1607 1608"/>
+    <strategies name="EvaluationStrategy1586" id="1586" author="sarim" group="4">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="80" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="90" qualitativeEvaluation="WeaklySatisfied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="75" qualitativeEvaluation="WeaklySatisfied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1587" id="1587" author="sarim" group="4">
+      <evaluations evaluation="75" qualitativeEvaluation="WeaklySatisfied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-25" qualitativeEvaluation="WeaklyDenied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="75" qualitativeEvaluation="WeaklySatisfied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1590" id="1590" author="sarim" group="4">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-75" qualitativeEvaluation="WeaklyDenied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1594" id="1594" author="sarim" group="4">
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-25" qualitativeEvaluation="WeaklyDenied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="75" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1465">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1597" id="1597" author="sarim" group="4">
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1483">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="75" qualitativeEvaluation="WeaklySatisfied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1598" id="1598" author="sarim" group="4">
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1461">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="75" qualitativeEvaluation="WeaklySatisfied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="25" qualitativeEvaluation="WeaklySatisfied" intElement="1491">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1599" id="1599" author="sarim" group="4">
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-75" qualitativeEvaluation="WeaklyDenied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1600" id="1600" author="sarim" group="4">
+      <evaluations intElement="1491">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations intElement="1465">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1601" id="1601" author="sarim" group="4">
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations intElement="1465">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1602" id="1602" author="sarim" group="4">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-25" qualitativeEvaluation="WeaklyDenied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="25" qualitativeEvaluation="WeaklySatisfied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations intElement="1463">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1603" id="1603" author="sarim" group="4">
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="25" qualitativeEvaluation="WeaklySatisfied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="25" qualitativeEvaluation="WeaklySatisfied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1604" id="1604" author="sarim" group="4">
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations intElement="1463">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1605" id="1605" author="sarim" group="4">
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1606" id="1606" author="sarim" group="4">
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-100" qualitativeEvaluation="Denied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1607" id="1607" author="sarim" group="4">
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="EvaluationStrategy1608" id="1608" author="sarim" group="4">
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1475">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1459">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="75" qualitativeEvaluation="WeaklySatisfied" intElement="1473">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-50" qualitativeEvaluation="WeaklyDenied" intElement="1467">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="1487">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-25" qualitativeEvaluation="WeaklyDenied" intElement="1489">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+  </grlspec>
+  <urndef>
+    <specDiagrams xsi:type="grl:GRLGraph" name="ProtectPrivacy" id="2">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1458" id="1458" x="601" y="371" contRef="1496" succ="//@urndef/@specDiagrams.0/@connections.6" pred="//@urndef/@specDiagrams.0/@connections.8 //@urndef/@specDiagrams.0/@connections.9 //@urndef/@specDiagrams.0/@connections.11" def="1457">
+        <metadata name="_height" value="96"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1460" id="1460" x="136" y="350" contRef="1496" succ="//@urndef/@specDiagrams.0/@connections.11 //@urndef/@specDiagrams.0/@connections.12 //@urndef/@specDiagrams.0/@connections.15" def="1459">
+        <metadata name="_height" value="72"/>
+        <metadata name="_width" value="127"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1462" id="1462" x="-25" y="-101" contRef="1498" succ="//@urndef/@specDiagrams.0/@connections.2" pred="//@urndef/@specDiagrams.0/@connections.19" def="1461">
+        <metadata name="_height" value="74"/>
+        <metadata name="_width" value="124"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1464" id="1464" x="113" y="467" contRef="1496" pred="//@urndef/@specDiagrams.0/@connections.4 //@urndef/@specDiagrams.0/@connections.5" def="1463">
+        <metadata name="_height" value="68"/>
+        <metadata name="_width" value="150"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1466" id="1466" x="66" y="-249" contRef="1498" pred="//@urndef/@specDiagrams.0/@connections.2 //@urndef/@specDiagrams.0/@connections.3" def="1465">
+        <metadata name="_height" value="88"/>
+        <metadata name="_width" value="150"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1468" id="1468" x="947" y="206" contRef="1494" succ="//@urndef/@specDiagrams.0/@connections.9 //@urndef/@specDiagrams.0/@connections.10" def="1467">
+        <metadata name="_height" value="67"/>
+        <metadata name="_width" value="134"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1470" id="1470" x="414" y="615" contRef="1496" succ="//@urndef/@specDiagrams.0/@connections.5" pred="//@urndef/@specDiagrams.0/@connections.13 //@urndef/@specDiagrams.0/@connections.15" def="1469">
+        <metadata name="_height" value="69"/>
+        <metadata name="_width" value="127"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1472" id="1472" x="-101" y="-1" contRef="1498" succ="//@urndef/@specDiagrams.0/@connections.1" pred="//@urndef/@specDiagrams.0/@connections.18" def="1471">
+        <metadata name="_height" value="62"/>
+        <metadata name="_width" value="153"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1474" id="1474" x="899" y="62" contRef="1494" succ="//@urndef/@specDiagrams.0/@connections.8" def="1473">
+        <metadata name="_height" value="61"/>
+        <metadata name="_width" value="149"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1476" id="1476" x="279" y="241" contRef="1496" succ="//@urndef/@specDiagrams.0/@connections.13 //@urndef/@specDiagrams.0/@connections.14 //@urndef/@specDiagrams.0/@connections.16" def="1475">
+        <metadata name="_height" value="62"/>
+        <metadata name="_width" value="127"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1478" id="1478" x="208" y="612" contRef="1496" succ="//@urndef/@specDiagrams.0/@connections.4" pred="//@urndef/@specDiagrams.0/@connections.14" def="1477">
+        <metadata name="_height" value="68"/>
+        <metadata name="_width" value="135"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1480" id="1480" x="166" y="-99" contRef="1498" succ="//@urndef/@specDiagrams.0/@connections.3" pred="//@urndef/@specDiagrams.0/@connections.20" def="1479">
+        <metadata name="_height" value="89"/>
+        <metadata name="_width" value="92"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1482" id="1482" x="454" y="264" contRef="1496" pred="//@urndef/@specDiagrams.0/@connections.6 //@urndef/@specDiagrams.0/@connections.7" def="1481">
+        <metadata name="_height" value="88"/>
+        <metadata name="_width" value="150"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1484" id="1484" x="-282" y="-27" contRef="1498" succ="//@urndef/@specDiagrams.0/@connections.0" pred="//@urndef/@specDiagrams.0/@connections.16 //@urndef/@specDiagrams.0/@connections.17" def="1483">
+        <metadata name="_height" value="70"/>
+        <metadata name="_width" value="130"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1486" id="1486" x="515" y="526" contRef="1496" succ="//@urndef/@specDiagrams.0/@connections.7" pred="//@urndef/@specDiagrams.0/@connections.10 //@urndef/@specDiagrams.0/@connections.12" def="1485">
+        <metadata name="_height" value="71"/>
+        <metadata name="_width" value="122"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1488" id="1488" x="-303" y="-251" contRef="1498" succ="//@urndef/@specDiagrams.0/@connections.17 //@urndef/@specDiagrams.0/@connections.18" def="1487">
+        <metadata name="_height" value="67"/>
+        <metadata name="_width" value="123"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1490" id="1490" x="-164" y="-336" contRef="1498" succ="//@urndef/@specDiagrams.0/@connections.19 //@urndef/@specDiagrams.0/@connections.20" def="1489">
+        <metadata name="_height" value="88"/>
+        <metadata name="_width" value="137"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1492" id="1492" x="-178" y="-182" contRef="1498" pred="//@urndef/@specDiagrams.0/@connections.0 //@urndef/@specDiagrams.0/@connections.1" def="1491">
+        <metadata name="_height" value="88"/>
+        <metadata name="_width" value="150"/>
+      </nodes>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef1494" id="1494" x="853" y="-34" width="327" height="327" contDef="1493" nodes="1468 1474">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef1496" id="1496" x="81" y="168" width="687" height="589" contDef="1495" nodes="1458 1460 1464 1470 1476 1478 1482 1486">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef1498" id="1498" x="-352" y="-369" width="673" height="513" contDef="1497" nodes="1462 1466 1472 1480 1484 1488 1490 1492">
+        <label/>
+      </contRefs>
+      <connections xsi:type="grl:LinkRef" source="1484" target="1492" link="1529"/>
+      <connections xsi:type="grl:LinkRef" source="1472" target="1492" link="1530"/>
+      <connections xsi:type="grl:LinkRef" source="1462" target="1466" link="1531"/>
+      <connections xsi:type="grl:LinkRef" source="1480" target="1466" link="1532"/>
+      <connections xsi:type="grl:LinkRef" source="1478" target="1464" link="1533"/>
+      <connections xsi:type="grl:LinkRef" source="1470" target="1464" link="1534"/>
+      <connections xsi:type="grl:LinkRef" source="1458" target="1482" link="1535"/>
+      <connections xsi:type="grl:LinkRef" source="1486" target="1482" link="1536"/>
+      <connections xsi:type="grl:LinkRef" source="1474" target="1458" link="1538">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1468" target="1458" link="1539">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1468" target="1486" link="1540">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1460" target="1458" link="1542">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1460" target="1486" link="1543">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1476" target="1470" link="1545">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1476" target="1478" link="1546">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1460" target="1470" link="1548">
+        <label deltaX="19" deltaY="-60"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1476" target="1484" link="1550">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1488" target="1484" link="1552">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1488" target="1472" link="1553">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1490" target="1462" link="1555">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1490" target="1480" link="1556">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+    </specDiagrams>
+  </urndef>
+</urn:URNspec>
